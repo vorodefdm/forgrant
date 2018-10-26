@@ -1,0 +1,21 @@
+{
+  "name": "forgrant",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1"
+  },
+  "authors": [
+    "Fedorov D.M. <vorodefdm@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

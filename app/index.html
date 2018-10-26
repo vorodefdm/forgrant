@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Forgrant Test Task">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forgrant Test Task</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon-.ico in the root directory -->
+
+  <!-- build:css styles/libs.css -->
+
+  <!-- endbuild -->
+
+
+  <!-- build:css styles/index.css -->
+  <link rel="stylesheet" href="styles/index.css">
+  <!-- endbuild -->
+
+</head>
+<body class="site-body">
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+
+    <div class="wrapper">
+        <div class="curr-sel">
+            <h2>Select currency to exhange:</h2>
+            <select name="select_curr" id="select_curr">
+                <option value="https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCEUR">EUR</option>
+                <option value="https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCRUB">RUB</option>
+                <option value="https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCGBP">GBP</option>
+            </select>
+        </div>
+        <main>
+            <div class="item-exch ethereum">
+                <h3>Ethereum</h3>
+                <div class="item-exch-row price">
+                    <p>Price:</p>
+                    <p class="price-ask"></p>
+                </div>
+                <div class="item-exch-row percent-change">
+                    <p>Percent change</p>
+                    <label class="switch">
+                        <input type="checkbox" class="checkbox"> <span class="slider round"></span></label>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Hour change</p>
+                    <p class="hour-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Day change</p>
+                    <p class="day-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Week change</p>
+                    <p class="week-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Month change</p>
+                    <p class="month-change txt-green"></p>
+                </div>
+            </div>
+            <div class="item-exch litecoin">
+                <h3>Litecoin</h3>
+                <div class="item-exch-row price">
+                    <p>Price:</p>
+                    <p class="price-ask"></p>
+                </div>
+                <div class="item-exch-row percent-change">
+                    <p>Percent change</p>
+                    <label class="switch">
+                        <input type="checkbox" class="checkbox"> <span class="slider round"></span></label>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Hour change</p>
+                    <p class="hour-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Day change</p>
+                    <p class="day-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Week change</p>
+                    <p class="week-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Month change</p>
+                    <p class="month-change txt-green"></p>
+                </div>
+            </div>
+            <div class="item-exch bitcoin">
+                <h3>Bitcoin</h3>
+                <div class="item-exch-row price">
+                    <p>Price:</p>
+                    <p class="price-ask"></p>
+                </div>
+                <div class="item-exch-row percent-change">
+                    <p>Percent change</p>
+                    <label class="switch">
+                        <input type="checkbox" class="checkbox"> <span class="slider round"></span></label>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Hour change</p>
+                    <p class="hour-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Day change</p>
+                    <p class="day-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Week change</p>
+                    <p class="week-change txt-green"></p>
+                </div>
+                <div class="item-exch-row exch-row">
+                    <p>Month change</p>
+                    <p class="month-change txt-green"></p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+          <!-- Для оптимизации шрифты обычно помещают в конец, чтоб не блокировалась загрузка основного контента  -->
+          <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+          <!-- build:js scripts/libs.js -->
+          <script src="scripts/jquery-3.3.1.min.js"></script>
+          <script src="scripts/jquery.nice-select.min.js"></script>          
+          <!-- endbuild -->
+
+          <!-- build:js scripts/index.js -->
+          <script src="scripts/index.js"></script>
+          <!-- endbuild -->
+        </body>
+        </html>
